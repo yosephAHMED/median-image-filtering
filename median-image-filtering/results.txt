@@ -1,0 +1,114 @@
+Sample size: 100
+	Population size: 5000
+          95th smallest:  4597    Running time: 0.0032
+          81th smallest:  3498    Running time: 0.0024
+          93th smallest:  4605    Running time: 0.0029
+           3th smallest:   154    Running time: 0.0026
+          86th smallest:  4285    Running time: 0.0026
+	Population size: 8000
+          46th smallest:  4155    Running time: 0.0034
+          50th smallest:  3687    Running time: 0.003
+          91th smallest:  7020    Running time: 0.0018
+          18th smallest:   956    Running time: 0.0019
+          26th smallest:  1501    Running time: 0.0029
+	Population size: 10000
+          41th smallest:  3860    Running time: 0.0032
+          77th smallest:  7553    Running time: 0.0041
+          29th smallest:  1901    Running time: 0.0035
+          48th smallest:  4133    Running time: 0.0024
+          95th smallest:  9409    Running time: 0.0034
+Sample size: 300
+	Population size: 5000
+          78th smallest:  1393    Running time: 0.0081
+          14th smallest:   287    Running time: 0.0037
+         130th smallest:  2056    Running time: 0.0087
+         293th smallest:  4911    Running time: 0.0046
+          99th smallest:  1627    Running time: 0.0069
+	Population size: 8000
+           3th smallest:    43    Running time: 0.0032
+         186th smallest:  4495    Running time: 0.0041
+         263th smallest:  7135    Running time: 0.0041
+         253th smallest:  6793    Running time: 0.0055
+         300th smallest:  7972    Running time: 0.0033
+	Population size: 10000
+          30th smallest:   852    Running time: 0.0061
+         143th smallest:  4313    Running time: 0.005
+         158th smallest:  4701    Running time: 0.0042
+         101th smallest:  2628    Running time: 0.0051
+          39th smallest:  1072    Running time: 0.0054
+Sample size: 500
+	Population size: 5000
+         455th smallest:  4433    Running time: 0.0082
+         466th smallest:  4583    Running time: 0.0086
+          18th smallest:   128    Running time: 0.0029
+          27th smallest:   313    Running time: 0.0078
+          33th smallest:   385    Running time: 0.007
+	Population size: 8000
+         107th smallest:  1342    Running time: 0.0072
+         352th smallest:  5647    Running time: 0.0086
+         199th smallest:  3063    Running time: 0.0052
+         271th smallest:  4385    Running time: 0.0117
+          65th smallest:   844    Running time: 0.0051
+	Population size: 10000
+         356th smallest:  6513    Running time: 0.0075
+         222th smallest:  3875    Running time: 0.0085
+         421th smallest:  8189    Running time: 0.0039
+         465th smallest:  9139    Running time: 0.0067
+         383th smallest:  7543    Running time: 0.0095
+Sample size: 1000
+	Population size: 5000
+         712th smallest:  3530    Running time: 0.0093
+         545th smallest:  2545    Running time: 0.0155
+         588th smallest:  2746    Running time: 0.0191
+         249th smallest:  1173    Running time: 0.0122
+         521th smallest:  2429    Running time: 0.0171
+	Population size: 8000
+         471th smallest:  3403    Running time: 0.0136
+         560th smallest:  4372    Running time: 0.0157
+         616th smallest:  5104    Running time: 0.0185
+          16th smallest:   109    Running time: 0.0134
+         237th smallest:  1733    Running time: 0.0212
+	Population size: 10000
+         391th smallest:  3060    Running time: 0.0107
+         860th smallest:  8354    Running time: 0.0084
+         923th smallest:  8944    Running time: 0.0125
+         408th smallest:  3402    Running time: 0.0155
+         722th smallest:  6787    Running time: 0.0164
+Sample size: 2000
+	Population size: 5000
+         260th smallest:   633    Running time: 0.0277
+        1208th smallest:  2792    Running time: 0.037
+        1817th smallest:  4478    Running time: 0.026
+         384th smallest:   931    Running time: 0.0237
+        1959th smallest:  4895    Running time: 0.0231
+	Population size: 8000
+         145th smallest:   472    Running time: 0.0224
+        1996th smallest:  7962    Running time: 0.019
+        1565th smallest:  6172    Running time: 0.0215
+        1859th smallest:  7483    Running time: 0.0362
+         566th smallest:  2154    Running time: 0.0314
+	Population size: 10000
+        1390th smallest:  6673    Running time: 0.0296
+        1116th smallest:  5284    Running time: 0.0312
+         440th smallest:  1799    Running time: 0.0389
+        1743th smallest:  8522    Running time: 0.0278
+         111th smallest:   418    Running time: 0.026
+Sample size: 4000
+	Population size: 5000
+        2808th smallest:  3390    Running time: 0.0765
+        2317th smallest:  2726    Running time: 0.0675
+        3961th smallest:  4952    Running time: 0.0285
+        1728th smallest:  1979    Running time: 0.0806
+        2866th smallest:  3418    Running time: 0.0449
+	Population size: 8000
+        1189th smallest:  2187    Running time: 0.0519
+         353th smallest:   590    Running time: 0.0228
+        1942th smallest:  3801    Running time: 0.056
+        1777th smallest:  3464    Running time: 0.0551
+        1593th smallest:  2973    Running time: 0.0526
+	Population size: 10000
+        3930th smallest:  9820    Running time: 0.031
+        3732th smallest:  9321    Running time: 0.0396
+        3246th smallest:  7973    Running time: 0.0623
+        1189th smallest:  2434    Running time: 0.0613
+         238th smallest:   488    Running time: 0.0489
