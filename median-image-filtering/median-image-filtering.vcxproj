@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayAverageCalc.cpp" />
     <ClCompile Include="GenerateRandomInput.cpp" />
     <ClCompile Include="OrderStatisticAlgorithm.cpp" />
     <ClCompile Include="Source.cpp" />

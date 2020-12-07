@@ -1,114 +1,138 @@
 Sample size: 100
 	Population size: 5000
-          46th smallest:  2248    Running time: 0.0053
-          72th smallest:  3489    Running time: 0.0032
-          52th smallest:  2057    Running time: 0.0232
-          38th smallest:  2312    Running time: 0.0019
-          15th smallest:   852    Running time: 0.0173
+           3th smallest:    92    Running time: 0.0015
+          95th smallest:  4827    Running time: 0.003
+          95th smallest:  4464    Running time: 0.0018
+          30th smallest:  1134    Running time: 0.0022
+          72th smallest:  3517    Running time: 0.0028
+                          Average Running time: 0.00226
 	Population size: 8000
-          46th smallest:  3308    Running time: 0.0013
-          72th smallest:  5634    Running time: 0.0031
-          52th smallest:  4286    Running time: 0.0226
-          38th smallest:  3298    Running time: 0.0028
-          15th smallest:  1390    Running time: 0.0019
+           3th smallest:    92    Running time: 0.0025
+          95th smallest:  7504    Running time: 0.0007
+          95th smallest:  7538    Running time: 0.0016
+          30th smallest:  2112    Running time: 0.0021
+          72th smallest:  5944    Running time: 0.0027
+                          Average Running time: 0.00192
 	Population size: 10000
-          46th smallest:  3909    Running time: 0.0032
-          72th smallest:  7135    Running time: 0.0037
-          52th smallest:  5638    Running time: 0.0026
-          38th smallest:  3052    Running time: 0.0029
-          15th smallest:  1012    Running time: 0.017
+           3th smallest:    94    Running time: 0.0011
+          95th smallest:  9546    Running time: 0.0025
+          95th smallest:  9384    Running time: 0.0009
+          30th smallest:  2382    Running time: 0.0031
+          72th smallest:  7416    Running time: 0.0028
+                          Average Running time: 0.00208
+                          Average RT across Populations: 0.00208667
 Sample size: 300
 	Population size: 5000
-         294th smallest:  4892    Running time: 0.0063
-         182th smallest:  2629    Running time: 0.0045
-          66th smallest:  1111    Running time: 0.0064
-         226th smallest:  3669    Running time: 0.0059
-         108th smallest:  1445    Running time: 0.004
+         247th smallest:  4070    Running time: 0.006
+         226th smallest:  3684    Running time: 0.0061
+          59th smallest:   801    Running time: 0.0061
+         285th smallest:  4640    Running time: 0.005
+         249th smallest:  4061    Running time: 0.0048
+                          Average Running time: 0.0056
 	Population size: 8000
-         294th smallest:  7857    Running time: 0.0174
-         182th smallest:  5034    Running time: 0.0042
-          66th smallest:  1745    Running time: 0.0078
-         226th smallest:  6061    Running time: 0.007
-         108th smallest:  2644    Running time: 0.0063
+         247th smallest:  6594    Running time: 0.005
+         226th smallest:  5676    Running time: 0.0066
+          59th smallest:  1274    Running time: 0.0058
+         285th smallest:  7590    Running time: 0.0055
+         249th smallest:  6352    Running time: 0.0053
+                          Average Running time: 0.00564
 	Population size: 10000
-         294th smallest:  9898    Running time: 0.005
-         182th smallest:  5947    Running time: 0.0051
-          66th smallest:  2075    Running time: 0.0055
-         226th smallest:  7035    Running time: 0.0036
-         108th smallest:  2741    Running time: 0.0057
+         247th smallest:  8487    Running time: 0.0042
+         226th smallest:  7201    Running time: 0.0056
+          59th smallest:  1528    Running time: 0.003
+         285th smallest:  9572    Running time: 0.0039
+         249th smallest:  8261    Running time: 0.0044
+                          Average Running time: 0.00422
+                          Average RT across Populations: 0.00515333
 Sample size: 500
 	Population size: 5000
-         149th smallest:  1429    Running time: 0.0097
-         349th smallest:  3410    Running time: 0.0104
-          43th smallest:   346    Running time: 0.0081
-         313th smallest:  2749    Running time: 0.0083
-         117th smallest:  1095    Running time: 0.0071
+          38th smallest:   336    Running time: 0.0062
+         368th smallest:  3518    Running time: 0.0053
+         465th smallest:  4603    Running time: 0.0059
+         254th smallest:  2289    Running time: 0.0073
+         145th smallest:  1407    Running time: 0.0136
+                          Average Running time: 0.00766
 	Population size: 8000
-         149th smallest:  2266    Running time: 0.0237
-         349th smallest:  5663    Running time: 0.0106
-          43th smallest:   698    Running time: 0.005
-         313th smallest:  4939    Running time: 0.0102
-         117th smallest:  1749    Running time: 0.0131
+          38th smallest:   577    Running time: 0.006
+         368th smallest:  5801    Running time: 0.0085
+         465th smallest:  7401    Running time: 0.0057
+         254th smallest:  3635    Running time: 0.0134
+         145th smallest:  1834    Running time: 0.0104
+                          Average Running time: 0.0088
 	Population size: 10000
-         149th smallest:  2704    Running time: 0.0123
-         349th smallest:  6495    Running time: 0.0132
-          43th smallest:   574    Running time: 0.0101
-         313th smallest:  5916    Running time: 0.0308
-         117th smallest:  2110    Running time: 0.0093
+          38th smallest:   558    Running time: 0.0065
+         368th smallest:  7038    Running time: 0.0092
+         465th smallest:  9150    Running time: 0.0083
+         254th smallest:  4696    Running time: 0.0075
+         145th smallest:  2391    Running time: 0.009
+                          Average Running time: 0.0081
+                          Average RT across Populations: 0.00818667
 Sample size: 1000
 	Population size: 5000
-         519th smallest:  2396    Running time: 0.0152
-         169th smallest:   662    Running time: 0.012
-         551th smallest:  2538    Running time: 0.0126
-         588th smallest:  2809    Running time: 0.015
-         571th smallest:  2646    Running time: 0.0285
+         102th smallest:   357    Running time: 0.0123
+         871th smallest:  4295    Running time: 0.0135
+         805th smallest:  3863    Running time: 0.0145
+         316th smallest:  1361    Running time: 0.0206
+         263th smallest:  1244    Running time: 0.0129
+                          Average Running time: 0.01476
 	Population size: 8000
-         519th smallest:  4150    Running time: 0.012
-         169th smallest:   970    Running time: 0.0124
-         551th smallest:  4389    Running time: 0.0157
-         588th smallest:  4698    Running time: 0.0149
-         571th smallest:  4605    Running time: 0.0175
+         102th smallest:   626    Running time: 0.009
+         871th smallest:  6910    Running time: 0.0123
+         805th smallest:  6518    Running time: 0.0124
+         316th smallest:  2268    Running time: 0.0263
+         263th smallest:  1919    Running time: 0.0187
+                          Average Running time: 0.01574
 	Population size: 10000
-         519th smallest:  4515    Running time: 0.0185
-         169th smallest:  1270    Running time: 0.0117
-         551th smallest:  5030    Running time: 0.024
-         588th smallest:  5323    Running time: 0.0228
-         571th smallest:  5147    Running time: 0.0223
+         102th smallest:   848    Running time: 0.0103
+         871th smallest:  8710    Running time: 0.0206
+         805th smallest:  7907    Running time: 0.0155
+         316th smallest:  2388    Running time: 0.0175
+         263th smallest:  2069    Running time: 0.0134
+                          Average Running time: 0.01546
+                          Average RT across Populations: 0.01532
 Sample size: 2000
 	Population size: 5000
-         389th smallest:   923    Running time: 0.0307
-         481th smallest:  1129    Running time: 0.0191
-         990th smallest:  2262    Running time: 0.0318
-         694th smallest:  1701    Running time: 0.0283
-        1219th smallest:  2802    Running time: 0.0319
+        1045th smallest:  2426    Running time: 0.0273
+         820th smallest:  1846    Running time: 0.022
+        1536th smallest:  3762    Running time: 0.0329
+         275th smallest:   681    Running time: 0.034
+         581th smallest:  1406    Running time: 0.0182
+                          Average Running time: 0.02688
 	Population size: 8000
-         389th smallest:  1454    Running time: 0.0168
-         481th smallest:  1780    Running time: 0.0401
-         990th smallest:  3800    Running time: 0.029
-         694th smallest:  2585    Running time: 0.0332
-        1219th smallest:  4852    Running time: 0.0317
+        1045th smallest:  4056    Running time: 0.0366
+         820th smallest:  3045    Running time: 0.0337
+        1536th smallest:  6077    Running time: 0.0341
+         275th smallest:   959    Running time: 0.0288
+         581th smallest:  2323    Running time: 0.0366
+                          Average Running time: 0.03396
 	Population size: 10000
-         389th smallest:  1568    Running time: 0.0302
-         481th smallest:  1872    Running time: 0.0277
-         990th smallest:  4455    Running time: 0.0272
-         694th smallest:  3078    Running time: 0.024
-        1219th smallest:  5613    Running time: 0.0258
+        1045th smallest:  4530    Running time: 0.0381
+         820th smallest:  3325    Running time: 0.0211
+        1536th smallest:  7424    Running time: 0.0227
+         275th smallest:  1263    Running time: 0.0222
+         581th smallest:  2340    Running time: 0.0314
+                          Average Running time: 0.0271
+                          Average RT across Populations: 0.0293133
 Sample size: 4000
 	Population size: 5000
-        2513th smallest:  2963    Running time: 0.0832
-         805th smallest:   930    Running time: 0.0266
-        1119th smallest:  1344    Running time: 0.0589
-        1473th smallest:  1688    Running time: 0.0732
-        2009th smallest:  2387    Running time: 0.0696
+        2300th smallest:  2658    Running time: 0.0594
+         891th smallest:  1007    Running time: 0.0443
+        2906th smallest:  3495    Running time: 0.0396
+         822th smallest:   958    Running time: 0.0627
+        1130th smallest:  1323    Running time: 0.0928
+                          Average Running time: 0.05976
 	Population size: 8000
-        2513th smallest:  4902    Running time: 0.0622
-         805th smallest:  1577    Running time: 0.0583
-        1119th smallest:  2144    Running time: 0.0635
-        1473th smallest:  2798    Running time: 0.0547
-        2009th smallest:  4028    Running time: 0.0679
+        2300th smallest:  4489    Running time: 0.0556
+         891th smallest:  1680    Running time: 0.0452
+        2906th smallest:  5818    Running time: 0.0471
+         822th smallest:  1508    Running time: 0.0461
+        1130th smallest:  2123    Running time: 0.0465
+                          Average Running time: 0.0481
 	Population size: 10000
-        2513th smallest:  5908    Running time: 0.066
-         805th smallest:  1699    Running time: 0.0675
-        1119th smallest:  2206    Running time: 0.0642
-        1473th smallest:  3019    Running time: 0.0396
-        2009th smallest:  4515    Running time: 0.0413
+        2300th smallest:  5161    Running time: 0.0525
+         891th smallest:  1903    Running time: 0.0578
+        2906th smallest:  6974    Running time: 0.0663
+         822th smallest:  1756    Running time: 0.0549
+        1130th smallest:  2256    Running time: 0.0594
+                          Average Running time: 0.05818
+                          Average RT across Populations: 0.0553467
