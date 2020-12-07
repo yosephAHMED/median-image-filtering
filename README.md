@@ -1,9 +1,6 @@
 # median-image-filtering
 CSC382 Analysis of Algorithms Final Project
 
-# median-image-filtering
-Analysis of Algorithms Final Project
-
 **Part I: Implement the order statistic algorithm.**
 
 Generate n random numbers in the range of [1..N], which are unordered. 
