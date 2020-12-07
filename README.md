@@ -28,3 +28,26 @@ Note:
 - The other input is the original image that you will convert. 
 - The output is the converted image.
 ---
+## Raw Results:
+### https://raw.githubusercontent.com/yosephAHMED/median-image-filtering/main/median-image-filtering/results.txt
+---
+| Sample Size (n) | Average RT Across Populations (ns) |
+| --- | --- |
+| `100` | 2586.67 |
+| `300` | 5173.33 |
+| `500` | 7093.33 |
+| `1000` | 15166.7 |
+| `2000` | 28820 |
+| `4000` | 57233.3 |
+| **Average of averages** | 19,345.555 |
+
+## Plotting the points
+<a href="https://gist.githubusercontent.com/yosephAHMED/907f4d2599fef5395925fca5ecd04955/raw/8124632cd3491173ec385cb560c260fb4336dd77/desmos-graph%2520(2).svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/907f4d2599fef5395925fca5ecd04955/raw/8124632cd3491173ec385cb560c260fb4336dd77/desmos-graph%2520(2).svg">
+</a>
+
+## Line of best fit
+### y = 14.09x + 793.11
+<a href="https://gist.githubusercontent.com/yosephAHMED/b2e9a7f8a0fbe4f449423ee471611542/raw/7d422e5dd87537353e3a94847a7f276108bdc711/desmos-graph%2520(3).svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/b2e9a7f8a0fbe4f449423ee471611542/raw/7d422e5dd87537353e3a94847a7f276108bdc711/desmos-graph%2520(3).svg">
+</a>
