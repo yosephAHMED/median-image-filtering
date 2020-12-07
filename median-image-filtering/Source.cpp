@@ -27,7 +27,7 @@ int main() {
     // variables to determine running time of algorithms
     using namespace std::chrono;
     high_resolution_clock::time_point t1, t2;
-    chrono::duration<double, milli> runningTime;
+    chrono::duration<double, nano> runningTime;
 
     // Population size array
     int N[3] = { 5000, 8000, 10000 };
@@ -77,7 +77,7 @@ int main() {
 
                 // output result to file
                 outFile << setw(12) << right << k[i] << "th smallest: " << setw(5) << result;
-                outFile << setw(18) << right << "Running time: " << setw(5) << runningTime.count() << endl;
+                outFile << setw(18) << right << "Running time: " << setw(5) << runningTime.count() << " ns" << endl;
 
                 // delete the dynamic array for re-initialization
                 delete[] arr;
@@ -87,10 +87,10 @@ int main() {
             averageRT[populationSizeIndex] = arrAverage(arrRT, 5);
 
             // write average running time to file
-            outFile << setw(48) << right << "Average Running time: " << arrAverage(arrRT, 5) << endl;
+            outFile << setw(48) << right << "Average Running time: " << setw(5) << arrAverage(arrRT, 5) << " ns" << endl;
         }
         // write average RT of averages to file
-        outFile << setw(57) << "Average RT across Populations: " << arrAverage(averageRT, 3) << endl;
+        outFile << setw(57) << "Average RT across Populations: " << arrAverage(averageRT, 3) << " ns" << endl;
     }
 
 	system("pause");
