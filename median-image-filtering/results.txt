@@ -1,114 +1,114 @@
 Sample size: 100
 	Population size: 5000
-          95th smallest:  4597    Running time: 0.0032
-          81th smallest:  3498    Running time: 0.0024
-          93th smallest:  4605    Running time: 0.0029
-           3th smallest:   154    Running time: 0.0026
-          86th smallest:  4285    Running time: 0.0026
+          46th smallest:  2248    Running time: 0.0053
+          72th smallest:  3489    Running time: 0.0032
+          52th smallest:  2057    Running time: 0.0232
+          38th smallest:  2312    Running time: 0.0019
+          15th smallest:   852    Running time: 0.0173
 	Population size: 8000
-          46th smallest:  4155    Running time: 0.0034
-          50th smallest:  3687    Running time: 0.003
-          91th smallest:  7020    Running time: 0.0018
-          18th smallest:   956    Running time: 0.0019
-          26th smallest:  1501    Running time: 0.0029
+          46th smallest:  3308    Running time: 0.0013
+          72th smallest:  5634    Running time: 0.0031
+          52th smallest:  4286    Running time: 0.0226
+          38th smallest:  3298    Running time: 0.0028
+          15th smallest:  1390    Running time: 0.0019
 	Population size: 10000
-          41th smallest:  3860    Running time: 0.0032
-          77th smallest:  7553    Running time: 0.0041
-          29th smallest:  1901    Running time: 0.0035
-          48th smallest:  4133    Running time: 0.0024
-          95th smallest:  9409    Running time: 0.0034
+          46th smallest:  3909    Running time: 0.0032
+          72th smallest:  7135    Running time: 0.0037
+          52th smallest:  5638    Running time: 0.0026
+          38th smallest:  3052    Running time: 0.0029
+          15th smallest:  1012    Running time: 0.017
 Sample size: 300
 	Population size: 5000
-          78th smallest:  1393    Running time: 0.0081
-          14th smallest:   287    Running time: 0.0037
-         130th smallest:  2056    Running time: 0.0087
-         293th smallest:  4911    Running time: 0.0046
-          99th smallest:  1627    Running time: 0.0069
+         294th smallest:  4892    Running time: 0.0063
+         182th smallest:  2629    Running time: 0.0045
+          66th smallest:  1111    Running time: 0.0064
+         226th smallest:  3669    Running time: 0.0059
+         108th smallest:  1445    Running time: 0.004
 	Population size: 8000
-           3th smallest:    43    Running time: 0.0032
-         186th smallest:  4495    Running time: 0.0041
-         263th smallest:  7135    Running time: 0.0041
-         253th smallest:  6793    Running time: 0.0055
-         300th smallest:  7972    Running time: 0.0033
+         294th smallest:  7857    Running time: 0.0174
+         182th smallest:  5034    Running time: 0.0042
+          66th smallest:  1745    Running time: 0.0078
+         226th smallest:  6061    Running time: 0.007
+         108th smallest:  2644    Running time: 0.0063
 	Population size: 10000
-          30th smallest:   852    Running time: 0.0061
-         143th smallest:  4313    Running time: 0.005
-         158th smallest:  4701    Running time: 0.0042
-         101th smallest:  2628    Running time: 0.0051
-          39th smallest:  1072    Running time: 0.0054
+         294th smallest:  9898    Running time: 0.005
+         182th smallest:  5947    Running time: 0.0051
+          66th smallest:  2075    Running time: 0.0055
+         226th smallest:  7035    Running time: 0.0036
+         108th smallest:  2741    Running time: 0.0057
 Sample size: 500
 	Population size: 5000
-         455th smallest:  4433    Running time: 0.0082
-         466th smallest:  4583    Running time: 0.0086
-          18th smallest:   128    Running time: 0.0029
-          27th smallest:   313    Running time: 0.0078
-          33th smallest:   385    Running time: 0.007
+         149th smallest:  1429    Running time: 0.0097
+         349th smallest:  3410    Running time: 0.0104
+          43th smallest:   346    Running time: 0.0081
+         313th smallest:  2749    Running time: 0.0083
+         117th smallest:  1095    Running time: 0.0071
 	Population size: 8000
-         107th smallest:  1342    Running time: 0.0072
-         352th smallest:  5647    Running time: 0.0086
-         199th smallest:  3063    Running time: 0.0052
-         271th smallest:  4385    Running time: 0.0117
-          65th smallest:   844    Running time: 0.0051
+         149th smallest:  2266    Running time: 0.0237
+         349th smallest:  5663    Running time: 0.0106
+          43th smallest:   698    Running time: 0.005
+         313th smallest:  4939    Running time: 0.0102
+         117th smallest:  1749    Running time: 0.0131
 	Population size: 10000
-         356th smallest:  6513    Running time: 0.0075
-         222th smallest:  3875    Running time: 0.0085
-         421th smallest:  8189    Running time: 0.0039
-         465th smallest:  9139    Running time: 0.0067
-         383th smallest:  7543    Running time: 0.0095
+         149th smallest:  2704    Running time: 0.0123
+         349th smallest:  6495    Running time: 0.0132
+          43th smallest:   574    Running time: 0.0101
+         313th smallest:  5916    Running time: 0.0308
+         117th smallest:  2110    Running time: 0.0093
 Sample size: 1000
 	Population size: 5000
-         712th smallest:  3530    Running time: 0.0093
-         545th smallest:  2545    Running time: 0.0155
-         588th smallest:  2746    Running time: 0.0191
-         249th smallest:  1173    Running time: 0.0122
-         521th smallest:  2429    Running time: 0.0171
+         519th smallest:  2396    Running time: 0.0152
+         169th smallest:   662    Running time: 0.012
+         551th smallest:  2538    Running time: 0.0126
+         588th smallest:  2809    Running time: 0.015
+         571th smallest:  2646    Running time: 0.0285
 	Population size: 8000
-         471th smallest:  3403    Running time: 0.0136
-         560th smallest:  4372    Running time: 0.0157
-         616th smallest:  5104    Running time: 0.0185
-          16th smallest:   109    Running time: 0.0134
-         237th smallest:  1733    Running time: 0.0212
+         519th smallest:  4150    Running time: 0.012
+         169th smallest:   970    Running time: 0.0124
+         551th smallest:  4389    Running time: 0.0157
+         588th smallest:  4698    Running time: 0.0149
+         571th smallest:  4605    Running time: 0.0175
 	Population size: 10000
-         391th smallest:  3060    Running time: 0.0107
-         860th smallest:  8354    Running time: 0.0084
-         923th smallest:  8944    Running time: 0.0125
-         408th smallest:  3402    Running time: 0.0155
-         722th smallest:  6787    Running time: 0.0164
+         519th smallest:  4515    Running time: 0.0185
+         169th smallest:  1270    Running time: 0.0117
+         551th smallest:  5030    Running time: 0.024
+         588th smallest:  5323    Running time: 0.0228
+         571th smallest:  5147    Running time: 0.0223
 Sample size: 2000
 	Population size: 5000
-         260th smallest:   633    Running time: 0.0277
-        1208th smallest:  2792    Running time: 0.037
-        1817th smallest:  4478    Running time: 0.026
-         384th smallest:   931    Running time: 0.0237
-        1959th smallest:  4895    Running time: 0.0231
+         389th smallest:   923    Running time: 0.0307
+         481th smallest:  1129    Running time: 0.0191
+         990th smallest:  2262    Running time: 0.0318
+         694th smallest:  1701    Running time: 0.0283
+        1219th smallest:  2802    Running time: 0.0319
 	Population size: 8000
-         145th smallest:   472    Running time: 0.0224
-        1996th smallest:  7962    Running time: 0.019
-        1565th smallest:  6172    Running time: 0.0215
-        1859th smallest:  7483    Running time: 0.0362
-         566th smallest:  2154    Running time: 0.0314
+         389th smallest:  1454    Running time: 0.0168
+         481th smallest:  1780    Running time: 0.0401
+         990th smallest:  3800    Running time: 0.029
+         694th smallest:  2585    Running time: 0.0332
+        1219th smallest:  4852    Running time: 0.0317
 	Population size: 10000
-        1390th smallest:  6673    Running time: 0.0296
-        1116th smallest:  5284    Running time: 0.0312
-         440th smallest:  1799    Running time: 0.0389
-        1743th smallest:  8522    Running time: 0.0278
-         111th smallest:   418    Running time: 0.026
+         389th smallest:  1568    Running time: 0.0302
+         481th smallest:  1872    Running time: 0.0277
+         990th smallest:  4455    Running time: 0.0272
+         694th smallest:  3078    Running time: 0.024
+        1219th smallest:  5613    Running time: 0.0258
 Sample size: 4000
 	Population size: 5000
-        2808th smallest:  3390    Running time: 0.0765
-        2317th smallest:  2726    Running time: 0.0675
-        3961th smallest:  4952    Running time: 0.0285
-        1728th smallest:  1979    Running time: 0.0806
-        2866th smallest:  3418    Running time: 0.0449
+        2513th smallest:  2963    Running time: 0.0832
+         805th smallest:   930    Running time: 0.0266
+        1119th smallest:  1344    Running time: 0.0589
+        1473th smallest:  1688    Running time: 0.0732
+        2009th smallest:  2387    Running time: 0.0696
 	Population size: 8000
-        1189th smallest:  2187    Running time: 0.0519
-         353th smallest:   590    Running time: 0.0228
-        1942th smallest:  3801    Running time: 0.056
-        1777th smallest:  3464    Running time: 0.0551
-        1593th smallest:  2973    Running time: 0.0526
+        2513th smallest:  4902    Running time: 0.0622
+         805th smallest:  1577    Running time: 0.0583
+        1119th smallest:  2144    Running time: 0.0635
+        1473th smallest:  2798    Running time: 0.0547
+        2009th smallest:  4028    Running time: 0.0679
 	Population size: 10000
-        3930th smallest:  9820    Running time: 0.031
-        3732th smallest:  9321    Running time: 0.0396
-        3246th smallest:  7973    Running time: 0.0623
-        1189th smallest:  2434    Running time: 0.0613
-         238th smallest:   488    Running time: 0.0489
+        2513th smallest:  5908    Running time: 0.066
+         805th smallest:  1699    Running time: 0.0675
+        1119th smallest:  2206    Running time: 0.0642
+        1473th smallest:  3019    Running time: 0.0396
+        2009th smallest:  4515    Running time: 0.0413
