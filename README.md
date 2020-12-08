@@ -56,6 +56,7 @@ https://raw.githubusercontent.com/yosephAHMED/median-image-filtering/main/median
  <a href="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n4000.svg">
   <img src="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n4000.svg">
 
+## Taking the average of averages
 | Sample Size (n) | Average RT Across Populations (ns) |
 | --- | --- |
 | `100` | 2586.67 |
