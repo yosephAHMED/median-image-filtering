@@ -33,4 +33,9 @@
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\noisyImageFiftyHundred.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
