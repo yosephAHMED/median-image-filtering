@@ -1,6 +1,6 @@
 # median-image-filtering
 CSC382 Analysis of Algorithms Final Project
-## To run this code, download the .cpp files and extract the images from the images folder into the working directory. Everything is automated via console input.
+## To run this code, download the .cpp files and the unfiltered base .pgm images. Place them into the working directory. Everything is automated via console input.
 
 **Part I: Implement the order statistic algorithm.**
 
