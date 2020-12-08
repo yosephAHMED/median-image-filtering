@@ -34,7 +34,64 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\Desktop\noisyImageFiftyHundred.pgm">
+    <None Include="image1.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image2.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image3.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image4.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image5.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image6.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image7.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image8.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image9.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image10.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image11.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image12.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image13.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image14.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image15.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image16.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image17.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image18.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image19.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image20.pgm">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

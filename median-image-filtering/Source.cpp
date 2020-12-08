@@ -5,10 +5,7 @@
 #include <chrono>
 #include <ctime>
 #include <cstdlib>
-
-extern "C" {
-#include "imageio.h"
-}
+#include <string>
 
 using namespace std;
 
@@ -20,6 +17,9 @@ double arrAverage(double arr[], int n);
 
 // OrderStatistic function prototype
 int kthSmallest(int* arr, int l, int r, int k);
+
+int imageArr[2000][2000];
+int medArr[2000][2000];
 
 void orderStatisticExperiment() {
     cout << "Running Order Statistic Experiment" << endl;
@@ -101,14 +101,8 @@ void orderStatisticExperiment() {
     outFile.close();
 }
 
-void medianImageFiltering() {
-    int windowSize;
-    int imageArr[2000][2000];
-    int medArr[2000][2000];
-
-    cout << "Median image filtering selected" << endl;
-    cout << "Enter window size: ";
-    cin >> windowSize;
+void medianImageFiltering(string fileName, int userChoice) {
+    int windowSize = userChoice;
 
     // (n x n) window
     int* window = new int[windowSize*windowSize];
@@ -116,7 +110,7 @@ void medianImageFiltering() {
 
     int row = 0, col = 0, numRows = 0, numCols = 0, max = 0;
 
-    ifstream infile("noisyImageFiftyHundred.pgm");
+    ifstream infile(fileName);
     stringstream ss;
     string inputLine = "";
 
@@ -173,10 +167,12 @@ void medianImageFiltering() {
         }
     }
 
+    delete[] window;
+
     ofstream outfile;
 
-    //new file open to stroe the output image 
-    outfile.open("Medianfilter.pnm");
+    //new file open to store the output image 
+    outfile.open("filtered_" + fileName);
     outfile << "P2" << endl;
     outfile << numCols << " " << numRows << endl;
     outfile << "255" << endl;
@@ -195,7 +191,17 @@ void medianImageFiltering() {
 }
 
 int main() {
-    int userChoice = -1, windowSize;
+
+    int i = 0;
+    string fileNames[20] = {
+        "image1.pgm", "image2.pgm", "image3.pgm", "image4.pgm",
+        "image5.pgm", "image6.pgm", "image7.pgm", "image8.pgm",
+        "image9.pgm", "image10.pgm", "image11.pgm", "image12.pgm",
+        "image13.pgm", "image14.pgm", "image15.pgm", "image16.pgm",
+        "image17.pgm", "image18.pgm", "image19.pgm", "image20.pgm"
+    };
+
+    int userChoice = -1;
 
     cout << "1: Run order statistic experiment" << endl;
     cout << "2: Apply median image filtering" << endl;
@@ -206,7 +212,15 @@ int main() {
         orderStatisticExperiment();
         break;
     case 2:
-        medianImageFiltering();
+        cout << "Enter value for n x n window: ";
+        cin >> userChoice;
+        while (i < 20) {
+            medianImageFiltering(fileNames[i], userChoice);
+            i++;
+        }
+        break;
+    default:
+        cout << "Incorrect input!" << endl;
         break;
     }
 

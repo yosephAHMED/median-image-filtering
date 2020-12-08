@@ -148,7 +148,26 @@
     <Text Include="results.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\Desktop\noisyImageFiftyHundred.pgm" />
+    <None Include="image1.pgm" />
+    <None Include="image10.pgm" />
+    <None Include="image11.pgm" />
+    <None Include="image12.pgm" />
+    <None Include="image13.pgm" />
+    <None Include="image14.pgm" />
+    <None Include="image15.pgm" />
+    <None Include="image16.pgm" />
+    <None Include="image17.pgm" />
+    <None Include="image18.pgm" />
+    <None Include="image19.pgm" />
+    <None Include="image2.pgm" />
+    <None Include="image20.pgm" />
+    <None Include="image3.pgm" />
+    <None Include="image4.pgm" />
+    <None Include="image5.pgm" />
+    <None Include="image6.pgm" />
+    <None Include="image7.pgm" />
+    <None Include="image8.pgm" />
+    <None Include="image9.pgm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
