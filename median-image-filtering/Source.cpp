@@ -213,9 +213,11 @@ int main() {
     };
 
     int userChoice = -1;
+    int imageChoice = -1;
 
     cout << "1: Run order statistic experiment" << endl;
-    cout << "2: Apply median image filtering" << endl;
+    cout << "2: Apply median image filtering to twenty image" << endl;
+    cout << "3: Apply median image filtering to one specific image" << endl;
     cin >> userChoice;
 
     switch (userChoice) {
@@ -229,6 +231,13 @@ int main() {
             medianImageFiltering(fileNames[i], userChoice);
             i++;
         }
+        break;
+    case 3:
+        cout << "Enter value for image to be filtered (1-20): ";
+        cin >> imageChoice;
+        cout << "Enter value for (n x n) window: ";
+        cin >> userChoice;
+        medianImageFiltering(fileNames[imageChoice-1], userChoice);
         break;
     default:
         cout << "Incorrect input!" << endl;

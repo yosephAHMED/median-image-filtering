@@ -148,6 +148,7 @@
     <Text Include="results.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="filtered_image1.pgm" />
     <None Include="image1.pgm" />
     <None Include="image10.pgm" />
     <None Include="image11.pgm" />

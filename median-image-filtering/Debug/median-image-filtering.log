@@ -1,2 +1,6 @@
-﻿  Source.cpp
+﻿  ArrayAverageCalc.cpp
+C:\Users\reape\source\repos\median-image-filtering\median-image-filtering\ArrayAverageCalc.cpp(7,16): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  OrderStatisticAlgorithm.cpp
+  Source.cpp
+  Generating Code...
   median-image-filtering.vcxproj -> C:\Users\reape\source\repos\median-image-filtering\Debug\median-image-filtering.exe
