@@ -115,5 +115,5 @@ I was curious how using a different dimension size for a window would affect the
 I took the first image again and this time ran it through median filtering using a 10x10 window
 
 ### The resulting image has a lot less noise, but is far more blurrier in comparison!
-![](images/image1.PNG)
-![](images/image1_10by10.png)
+![](images/image1.PNG) Original vs 4x4 window
+![](images/image1_10by10.png) 10x10 window
