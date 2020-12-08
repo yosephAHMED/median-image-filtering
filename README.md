@@ -107,3 +107,11 @@ I used this resource for adding noise to an image: https://pinetools.com/add-noi
 ![](images/image18.PNG)
 ![](images/image19.PNG)
 ![](images/image20.PNG)
+
+------
+## Extra:
+I was curious how using a different dimension size for a window would affect the output for median filtering.
+### I took the first image again and this time ran it through median filtering using a 10x10 window
+### The resulting image has a lot less noise, but is far more blurrier in comparison!
+![](images/image1.PNG)
+![](images/image1_10by10.PNG)
