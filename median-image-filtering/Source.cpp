@@ -18,7 +18,10 @@ double arrAverage(double arr[], int n);
 // OrderStatistic function prototype
 int kthSmallest(int* arr, int l, int r, int k);
 
+// imageArr will store the exact pixel values from the image to be filtered
 int imageArr[2000][2000];
+
+// medArr will store the median pixel values from the image to be filtered
 int medArr[2000][2000];
 
 void orderStatisticExperiment() {
@@ -106,11 +109,15 @@ void medianImageFiltering(string fileName, int userChoice) {
 
     // (n x n) window
     int* window = new int[windowSize*windowSize];
+
+    // total number of pixels in a window
     int numWindowEle = windowSize * windowSize;
 
     int row = 0, col = 0, numRows = 0, numCols = 0, max = 0;
 
+    // fileName is passed in from main
     ifstream infile(fileName);
+
     stringstream ss;
     string inputLine = "";
 
@@ -140,11 +147,12 @@ void medianImageFiltering(string fileName, int userChoice) {
     {
         for (col = 1; col <= numCols; ++col)
         {
-            //original data store in new array 
+            //original data copied 
             ss >> imageArr[row][col];
         }
     }
 
+    // using the (n x n) window on each pixel and finding the median
     for (int row = 1; row < numRows - windowSize + 1; ++row)
     {
         for (int col = 1; col < numCols - windowSize + 1; ++col)
@@ -154,6 +162,7 @@ void medianImageFiltering(string fileName, int userChoice) {
             {
                 for (int x = 0; x < windowSize; ++x)
                 {
+                    // putting all the neighboring pixels inside of window
                     window[y * windowSize + x] = imageArr[row + y][col + x];
                 }
             }
@@ -193,6 +202,8 @@ void medianImageFiltering(string fileName, int userChoice) {
 int main() {
 
     int i = 0;
+
+    // add the .pgm files to the work directory
     string fileNames[20] = {
         "image1.pgm", "image2.pgm", "image3.pgm", "image4.pgm",
         "image5.pgm", "image6.pgm", "image7.pgm", "image8.pgm",
@@ -212,7 +223,7 @@ int main() {
         orderStatisticExperiment();
         break;
     case 2:
-        cout << "Enter value for n x n window: ";
+        cout << "Enter value for (n x n) window: ";
         cin >> userChoice;
         while (i < 20) {
             medianImageFiltering(fileNames[i], userChoice);

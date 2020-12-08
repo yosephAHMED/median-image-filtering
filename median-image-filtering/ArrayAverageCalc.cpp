@@ -1,3 +1,4 @@
+// The arrAverage() function returns the average for an array of size n
 using namespace std;
 
 double arrAverage(double arr[], int n) {

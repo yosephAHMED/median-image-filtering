@@ -39,17 +39,29 @@ moves all smaller element to left of it and greater elements to right
 */
 int partition(int* arr, int l, int r)
 {
+    // x is pivot element
     int x = arr[r], i = l, temp;
+
+    // going from left to right
     for (int j = l; j <= r - 1; j++)
     {
         if (arr[j] <= x)
         {
+            // temp is equal to first element at left
             temp = arr[i];
+            
+            // element smaller than pivot is shifted to the left
             arr[i] = arr[j];
+
+            // first element is copied
             arr[j] = temp;
+
+            // increment i
             i++;
         }
     }
+
+    // swapping pivot into place
     temp = arr[i];
     arr[i] = arr[r];
     arr[r] = temp;
