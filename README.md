@@ -37,6 +37,26 @@ Part One
 ---
 Raw Results:
 https://raw.githubusercontent.com/yosephAHMED/median-image-filtering/main/median-image-filtering/results.txt
+
+<a href="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n100.svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n100.svg">
+ 
+ <a href="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n300.svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n300.svg">
+ 
+ <a href="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n500.svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n500.svg">
+ 
+ <a href="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n1000.svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n1000.svg">
+ 
+ <a href="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n2000.svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n2000.svg">
+ 
+ <a href="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n4000.svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/71a1143314ff51015f25574c8bc85119/raw/aa71e2fde9dfb23825cf8a1f53d89e0d50c907c5/n4000.svg">
+
+## Taking the average of averages
 | Sample Size (n) | Average RT Across Populations (ns) |
 | --- | --- |
 | `100` | 2586.67 |
@@ -62,8 +82,8 @@ https://raw.githubusercontent.com/yosephAHMED/median-image-filtering/main/median
 Part Two
 ---
 
-I used this resource for adding noise to an image: https://pinetools.com/add-noise-image
-50% noise at a strength of 50%
+I used this resource for adding noise to an image: https://pinetools.com/add-noise-image (50% noise, 50% strength)
+
 ## The results below are from running the algorithm on 20 different images at a window size of (4 x 4)
 ### Left (image with noise), Right (image after filtering)
 
