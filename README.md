@@ -27,10 +27,16 @@ Note:
 - The window size, N, is one input. That is, if user inputs N=5, then the window is 5*5.
 - The other input is the original image that you will convert. 
 - The output is the converted image.
+
+What to turn in:
+- Well documented source code in C++
+- Run your algorithm for 20 images and show the comparisons of the original image and the converted image. 
+
 ---
-## Raw Results:
-### https://raw.githubusercontent.com/yosephAHMED/median-image-filtering/main/median-image-filtering/results.txt
+Part One
 ---
+Raw Results:
+https://raw.githubusercontent.com/yosephAHMED/median-image-filtering/main/median-image-filtering/results.txt
 | Sample Size (n) | Average RT Across Populations (ns) |
 | --- | --- |
 | `100` | 2586.67 |
@@ -51,3 +57,33 @@ Note:
 <a href="https://gist.githubusercontent.com/yosephAHMED/b2e9a7f8a0fbe4f449423ee471611542/raw/7d422e5dd87537353e3a94847a7f276108bdc711/desmos-graph%2520(3).svg">
   <img src="https://gist.githubusercontent.com/yosephAHMED/b2e9a7f8a0fbe4f449423ee471611542/raw/7d422e5dd87537353e3a94847a7f276108bdc711/desmos-graph%2520(3).svg">
 </a>
+
+---
+Part Two
+---
+
+I used this resource for adding noise to an image: https://pinetools.com/add-noise-image
+50% noise at a strength of 50%
+## The results below are from running the algorithm on 20 different images at a window size of (4 x 4)
+### Left (image with noise), Right (image after filtering)
+
+![](images/image1.PNG)
+![](images/image2.PNG)
+![](images/image3.PNG)
+![](images/image4.PNG)
+![](images/image5.PNG)
+![](images/image6.PNG)
+![](images/image7.PNG)
+![](images/image8.PNG)
+![](images/image9.PNG)
+![](images/image10.PNG)
+![](images/image11.PNG)
+![](images/image12.PNG)
+![](images/image13.PNG)
+![](images/image14.PNG)
+![](images/image15.PNG)
+![](images/image16.PNG)
+![](images/image17.PNG)
+![](images/image18.PNG)
+![](images/image19.PNG)
+![](images/image20.PNG)
